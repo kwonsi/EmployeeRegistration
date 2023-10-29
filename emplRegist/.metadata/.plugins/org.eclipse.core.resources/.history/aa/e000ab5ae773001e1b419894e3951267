@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="employeeMapper">
+
+
+	<resultMap type="employee" id="employee_rm">
+		<id property="employeeNo" column="EMPLOYEE_NO" />
+		<result property="employeeRank" column="EMPLOYEE_RANK" />
+		<result property="employeeName" column="EMPLOYEE_NAME" />
+		<result property="employeeTel" column="EMPLOYEE_TEL" />
+		<result property="employeeMail" column="EMPLOYEE_MAIL" />
+	</resultMap>
+
+
+	<select id="selectEmployeeList" resultMap="employee_rm">
+		SELECT * FROM EMPLOYEE
+		WHERE <if test='query != null and query != "" '>
+				<choose>
+					<when test='key == "nb"'>
+						
+					</when>
+				
+					<when test= 'key == "r"'>
+						
+					</when>
+					
+					<when test= 'key == "nm"'>
+						
+					</when>
+				</choose>		
+			</if>
+	</select>
+
+	<insert id="registration">
+		INSERT INTO EMPLOYEE
+		VALUES(#{employeeNo}, #{employeeRank}, #{employeeName}, #{employeeTel}, #{employeeMail})
+	</insert>
+
+	<delete id="employeeDelete">
+		DELETE FROM EMPLOYEE WHERE EMPLOYEE_NO = ${employeeNo}
+	</delete>
+
+</mapper>

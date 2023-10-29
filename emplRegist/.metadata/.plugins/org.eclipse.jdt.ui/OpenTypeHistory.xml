@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=test/C:\/Tools\/apache-tomcat-9.0.73\/apache-tomcat-9.0.73\/lib\/servlet-api.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/https:\/\/javaee.github.io\/javaee-spec\/javadocs\/=/&lt;javax.servlet.http(HttpFilter.class[HttpFilter" modifiers="1057" timestamp="1679228010642"/>
+    <typeInfo handle="=test/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;my.company.test.service{MainService.java[MainService" modifiers="513" timestamp="1698400110510"/>
+    <typeInfo handle="=test/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;my.company.test.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1698383128164"/>
+    <typeInfo handle="=test/C:\/Users\/SEPC\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.14\/spring-jdbc-5.3.14.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-jdbc-5.3.14.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/5.3.14=/=/maven.scope=/compile=/&lt;org.springframework.jdbc.datasource.embedded(EmbeddedDatabaseConfigurer.class[EmbeddedDatabaseConfigurer" modifiers="1537" timestamp="1682360239513"/>
+</typeInfoHistroy>

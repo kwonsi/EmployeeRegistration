@@ -1,0 +1,13 @@
+package my.company.test.service;
+
+import my.company.test.vo.Employee;
+
+public interface EmployeeService {
+
+	int registration(Employee inputEp);
+
+	int employeeDelete(String employeeNo);
+
+	Employee selectEmployee(int employeeNo);
+
+}

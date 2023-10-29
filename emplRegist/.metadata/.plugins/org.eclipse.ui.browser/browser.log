@@ -1,0 +1,81 @@
+
+4월 27, 2023 01:45:34.529 NEW SESSION
+4월 27, 2023 01:45:34.529 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 29, 2023 04:25:56.326 NEW SESSION
+4월 29, 2023 04:25:56.327 [15664:15736:0429/042556.325:ERROR:device_event_log_impl.cc(222)] [04:25:56.325] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+4월 29, 2023 04:25:56.905 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+5월 01, 2023 08:49:53.695 NEW SESSION
+5월 01, 2023 08:49:53.695 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+5월 10, 2023 02:00:41.41 NEW SESSION
+5월 10, 2023 02:00:41.41 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 10, 2023 02:32:05.932 [15772:15544:0510/023205.931:ERROR:device_event_log_impl.cc(222)] [02:32:05.931] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 10, 2023 04:03:59.531 [15772:16652:0510/040359.530:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 10, 2023 09:20:54.522 [15772:16652:0510/092054.522:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 10, 2023 09:20:56.543 [15772:16652:0510/092056.543:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+5월 10, 2023 09:20:56.546 [15772:10572:0510/092056.546:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+5월 10, 2023 09:20:57.487 [15772:16652:0510/092057.486:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+
+8월 26, 2023 23:29:51.410 NEW SESSION
+8월 26, 2023 23:29:51.411 [25588:21136:0826/232951.406:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 26, 2023 23:29:51.412 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 26, 2023 23:29:51.413 ERROR: Time is after notAfter
+8월 26, 2023 23:29:51.414 
+8월 26, 2023 23:29:51.415 
+8월 26, 2023 23:40:16.328 [25588:25556:0826/234016.328:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 27, 2023 24:52:33.743 [25588:25556:0827/005233.743:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 27, 2023 24:52:35.760 [25588:25556:0827/005235.760:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+8월 27, 2023 24:52:36.125 [25588:16016:0827/005236.124:ERROR:device_event_log_impl.cc(222)] [00:52:36.123] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+8월 27, 2023 24:52:36.507 [25588:25556:0827/005236.507:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+8월 28, 2023 16:10:51.789 NEW SESSION
+8월 28, 2023 16:10:51.789 [13364:22144:0828/161051.787:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 28, 2023 16:10:51.789 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 28, 2023 16:10:51.790 ERROR: Time is after notAfter
+8월 28, 2023 16:10:51.790 
+8월 28, 2023 16:10:51.790 
+8월 28, 2023 16:24:42.523 [13364:22144:0828/162442.522:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c40.gcp.gvt2.com failed:
+8월 28, 2023 16:24:42.524 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 28, 2023 16:24:42.525 ERROR: Time is after notAfter
+8월 28, 2023 16:24:42.526 
+8월 28, 2023 16:24:42.526 
+8월 28, 2023 16:50:10.489 [13364:22144:0828/165010.489:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 28, 2023 16:50:10.490 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 28, 2023 16:50:10.490 ERROR: Time is after notAfter
+8월 28, 2023 16:50:10.490 
+8월 28, 2023 16:50:10.490 
+8월 28, 2023 16:50:10.849 [13364:22144:0828/165010.848:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c7.gcp.gvt2.com failed:
+8월 28, 2023 16:50:10.851 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 28, 2023 16:50:10.852 ERROR: Time is after notAfter
+8월 28, 2023 16:50:10.853 
+8월 28, 2023 16:50:10.855 
+8월 28, 2023 16:50:46.997 [13364:22144:0828/165046.996:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c50.gcp.gvt2.com failed:
+8월 28, 2023 16:50:46.998 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 28, 2023 16:50:46.999 ERROR: Time is after notAfter
+8월 28, 2023 16:50:46.999 
+8월 28, 2023 16:50:47.00 
+8월 28, 2023 16:51:14.905 [13364:22144:0828/165114.905:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c46.gcp.gvt2.com failed:
+8월 28, 2023 16:51:14.906 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 28, 2023 16:51:14.906 ERROR: Time is after notAfter
+8월 28, 2023 16:51:14.906 
+8월 28, 2023 16:51:14.906 
+
+9월 28, 2023 19:55:09.517 NEW SESSION
+9월 28, 2023 19:55:09.517 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 28, 2023 20:03:56.510 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 28, 2023 20:06:12.889 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 28, 2023 20:16:46.667 [14712:19364:0928/201646.666:ERROR:device_event_log_impl.cc(225)] [20:16:46.667] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+
+10월 27, 2023 14:54:03.266 NEW SESSION
+10월 27, 2023 14:54:03.267 [11072:12460:1027/145403.248:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 27, 2023 15:41:55.517 [11072:12460:1027/154155.517:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 27, 2023 15:41:57.533 [11072:12460:1027/154157.532:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+10월 27, 2023 15:41:57.972 [11072:13376:1027/154157.971:ERROR:device_event_log_impl.cc(225)] [15:41:57.971] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 27, 2023 15:41:58.413 [11072:12460:1027/154158.413:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+10월 27, 2023 17:56:39.726 [11072:13376:1027/175639.726:ERROR:device_event_log_impl.cc(225)] [17:56:39.726] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+10월 29, 2023 15:25:01.603 NEW SESSION
+10월 29, 2023 15:25:01.603 [4036:7572:1029/152501.601:ERROR:device_event_log_impl.cc(225)] [15:25:01.600] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 29, 2023 16:20:54.609 [3248:11648:1029/162054.609:ERROR:device_event_log_impl.cc(225)] [16:20:54.609] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)

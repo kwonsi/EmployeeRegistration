@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+</head>
+<header>
+    <h1>직원등록</h1>
+    
+</header>
+<c:if test="${ !empty message }">
+    <script>
+        alert("${message}");
+        // EL 작성 시 scope를 지정하지 않으면
+        // page -> request -> session -> application 순서로 검색하여
+        // 일치하는 속성이 있으면 출력
+    </script>
+</c:if> 
+</html>

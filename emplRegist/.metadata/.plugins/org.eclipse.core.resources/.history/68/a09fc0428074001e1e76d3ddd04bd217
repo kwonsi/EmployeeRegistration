@@ -1,0 +1,36 @@
+package my.company.test.dao;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import my.company.test.vo.Employee;
+
+@Repository
+public class EmployeeDao {
+
+	@Autowired
+	private SqlSessionTemplate sqlSession;
+
+	public int registration(Employee inputEp) {
+		return sqlSession.insert("employeeMapper.registration", inputEp);
+	}
+
+	public int employeeDelete(String employeeNo) {
+		return sqlSession.delete("employeeMapper.employeeDelete",employeeNo);
+	}
+
+	public Employee employeeSelect(int employeeNo) {
+		return sqlSession.selectOne("employeeMapper.employeeSelect", employeeNo);
+	}
+
+	public int employeeUpdate(Employee updateEp) {
+		return sqlSession.update("employeeMapper.employeeUdate", updateEp);
+	}
+	
+	
+	
+	
+	
+	
+}

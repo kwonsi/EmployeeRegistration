@@ -1,0 +1,90 @@
+package my.company.test.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import lombok.extern.slf4j.Slf4j;
+import my.company.test.service.EmployeeService;
+import my.company.test.vo.Employee;
+
+@Slf4j
+@RequestMapping("/empl")
+@Controller
+public class EmployeeController {
+
+	@Autowired
+	private EmployeeService service;
+
+	//직원등록 페이지 이동
+	@GetMapping("/registration")
+	public String registration() {
+
+		return "common/registration";
+	}
+
+	//직원등록
+	@PostMapping("/registrationForm")
+	public String registration(Employee inputEp) {
+
+		int result = service.registration(inputEp);
+
+		String path = null;
+		if(result>0) {
+			path = "redirect:/";
+		}else {
+			path = "redirect:/empl/registration";
+		}
+		return path;
+	}
+
+
+
+
+	//직원정보 수정 페이지 이동
+	@GetMapping("/emplModify/{employeeNo}")
+	public String emplModify(@PathVariable("employeeNo") String employeeNo,
+							Model model) {
+
+		Employee empl = service.employeeSelect(employeeNo);
+
+		model.addAttribute(empl);
+
+		return "common/emplModify";
+	}
+
+	//직원정보 수정
+	@PostMapping("/emplModify/{employeeNo}")
+	public String emplModify(Employee updateEp,
+							RedirectAttributes ra) {
+
+		System.out.println("수정위한 직원조회 : " + updateEp);
+
+		int result = service.employeeUpdate(updateEp);
+
+		String path = null;
+		String message = null;
+
+		if(result>0) {
+			path = "redirect:/";
+			message = "직원정보가 수정되었습니다.";
+		}else {
+			path = "redirect:/empl/emplModify/{employeeNo}";
+			message = "직원정보가 수정되지 않았습니다. 다시 시도해주세요.";
+		}
+
+		ra.addFlashAttribute("message", message);
+
+		return path;
+	}
+
+
+
+
+
+}

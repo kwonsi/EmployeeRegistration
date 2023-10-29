@@ -1,0 +1,8 @@
+127.0.0.1 - - [11/Sep/2023:19:26:20 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [11/Sep/2023:19:26:22 +0900] "GET /test/ HTTP/1.1" 200 1023
+0:0:0:0:0:0:0:1 - - [11/Sep/2023:19:26:22 +0900] "GET /test/resources/js/employee.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Sep/2023:19:26:22 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [11/Sep/2023:19:26:25 +0900] "GET /test/empl/registration HTTP/1.1" 200 1794
+0:0:0:0:0:0:0:1 - - [11/Sep/2023:19:26:25 +0900] "GET /test/resources/css/employee-style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Sep/2023:19:26:56 +0900] "POST /test/empl/registrationForm HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [11/Sep/2023:19:26:56 +0900] "GET /test/ HTTP/1.1" 200 1295

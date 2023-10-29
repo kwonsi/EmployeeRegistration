@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="employeeMapper">
+
+
+	<resultMap type="employee" id="employee_rm">
+		<id property="employeeNo" column="EMPLOYEE_NO" />
+		<result property="employeeRank" column="EMPLOYEE_RANK" />
+		<result property="employeeName" column="EMPLOYEE_NAME" />
+		<result property="employeeTel" column="EMPLOYEE_TEL" />
+		<result property="employeeMail" column="EMPLOYEE_MAIL" />
+	</resultMap>
+
+<!-- 직원조회 -->
+	<select id="selectEmployeeList" resultMap="employee_rm">
+		SELECT * FROM EMPLOYEE
+			<if test='query != null and query != "" '>
+			WHERE
+				<choose>
+					<when test='key == "nb"'>
+						EMPLOYEE_NO LIKE '%${query}%'
+					</when>
+				
+					<when test= 'key == "r"'>
+						EMPLOYEE_RANK LIKE '%${query}%'
+					</when>
+					
+					<when test= 'key == "nm"'>
+						EMPLOYEE_NAME LIKE '%${query}%'
+					</when>
+				</choose>		
+			</if>
+			ORDER BY EMPLOYEE_NO DESC
+	</select>
+
+<!-- 직원등록 -->
+	<insert id="registration">
+		INSERT INTO EMPLOYEE
+		VALUES(#{employeeNo}, #{employeeRank}, #{employeeName}, #{employeeTel}, #{employeeMail})
+	</insert>
+
+<!-- 직원삭제 -->
+	<delete id="employeeDelete">
+		DELETE FROM EMPLOYEE WHERE EMPLOYEE_NO = ${employeeNo}
+	</delete>
+
+</mapper>
