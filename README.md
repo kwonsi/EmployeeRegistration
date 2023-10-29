@@ -1,6 +1,6 @@
 # EmployeeRegistration
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=To&nbsp;Do&nbsp;List&fontSize=90" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Employee&nbsp;Registration&fontSize=80" />
 
 ### 프로젝트 설명
 Employee Registration
