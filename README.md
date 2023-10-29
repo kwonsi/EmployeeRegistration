@@ -19,7 +19,7 @@ Employee Registration
 
   
   <br>
-- 직원 정보 등록
+- 직원 정보 등록<br>
 ![image](https://github.com/kwonsi/EmployeeRegistration/assets/125863816/b5df41df-a36b-4356-9730-c794e354d0bc)
 ![image](https://github.com/kwonsi/EmployeeRegistration/assets/125863816/4ed1f7a3-5546-414f-a500-233228c20159)
 
